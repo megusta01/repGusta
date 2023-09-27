@@ -1,12 +1,14 @@
+import java.util.Date;
+
 public class Despesa {
     private double valor;
-    private String descrição;
+    private String descricao;
     private String categoria;
     private Date data;
 
-    public Despesa(double valor, String descriçao, String categoria, Date data){
+    public Despesa(double valor, String descricao, String categoria, Date data){
         this.valor = valor;
-        this.descriçao = descriçao;
+        this.descricao = descricao;
         this.categoria = categoria;
         this.data = data;
     }

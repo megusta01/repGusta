@@ -1,9 +1,9 @@
 public class Conta {
     private String banco;
-    private String descriçao;
+    private String descricao;
 
-    public Conta(String banco, String descriçao){
+    public Conta(String banco, String descricao){
         this.banco = banco;
-        this.descrição = descrição;
+        this.descricao = descricao;
     }
 }

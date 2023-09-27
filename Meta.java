@@ -1,11 +1,13 @@
+import java.util.Date;
+
 public class Meta {
-    private Data data;
+    private Date data;
     private double valor;
-    private String descriçao;
+    private String descricao;
 
     public Meta(Date data, double valor, String descriçao){
         this.data = data;
         this.valor = valor;
-        this.descriçao = descriçao;
+        this.descricao = descricao;
     }
 }

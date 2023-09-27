@@ -1,3 +1,5 @@
+import java.util.Date;
+
 public class Investimento {
     private double valor;
     private Date data;
